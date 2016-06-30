@@ -11,7 +11,7 @@ language:zh-cn
 timezone:utc
 
 
-url:https://murainy.github.io
+url:https://murainy.github.io/public
 root:/
 permalink::year/:month/:day/:title/
 permalink_defaults:""
