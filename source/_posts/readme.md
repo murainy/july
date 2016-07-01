@@ -15,5 +15,5 @@ tags:
 ![雨天][2]
 
 
-  [1]: http://img2.a.pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&path=/apic617.jpg&app_id=246327&width=740&height=490
+  [1]: https://github.com/murainy/murainy.github.io/blob/gh-pages/murainy.github.io/12.png?raw=true
   [2]: https://github.com/murainy/murainy.github.io/blob/gh-pages/murainy.github.io/6700S.jpg?raw=true

@@ -1,70 +1,69 @@
 # Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+## Docs:  https: //hexo.io/docs/configuration.html
+## Source:  https: //github.com/hexojs/hexo/
 
 # Site
-title:"Hexo murainy"
-subtitle:"天马行空"
-description:"要么出击，要么出局，命运女神总会眷顾拼劲全力的一方 "
-author:murainy
-language:zh-cn
-timezone:utc
+title: "Hexo murainy"
+subtitle: "天马行空"
+description: "要么出击，要么出局，命运女神总会眷顾拼劲全力的一方 "
+author: murainy
+language: zh-cn
+timezone: utc
 
 
-url:https://murainy.github.io/public
-root:/
-permalink::year/:month/:day/:title/
-permalink_defaults:""
+url: https://murainy.github.io/
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults: ""
 
-source_dir:source
-public_dir:public
-tag_dir:tags
-archive_dir:archives
-category_dir:categories
-code_dir:downloads/code
-i18n_dir::lang
-skip_render:false
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: lang
+skip_render: false
 
-new_post_name::title.md
-default_layout:post
-titlecase:false
-external_link:true 
-filename_case:0
-render_drafts:false
-post_asset_folder:false
-relative_link:false
-future:true
-highlight
-  enable:true
-  line_number:true
-  auto_detect:false
-  tab_replace:true
+new_post_name: title.md
+default_layout: post
+titlecase: false
+external_link: true 
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: true
 
-default_category:uncategorized
-category_map 
+default_category: uncategorized
+category_map: 
  think
  life
  other
 
-tag_map
+tag_map:
  official
  responsive
  widget
  two_column
  one_column
 
-date_format:YYYY-MM-DD
-time_format:HH:mm:ss
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
 
-per_page:10
-pagination_dir:page
+per_page: 10
+pagination_dir: page
+theme: next
+stylus:
+ compress: true
 
-theme:pacman
-stylus
- compress:true
-
-deploy
-  type:github
-  repository:"https://github.com/murainy/murainy.github.io.git"
-  branches:gh-pages
+deploy:
+  type: git
+  repository: https://github.com/murainy/murainy.github.io.git
+  branches: master
   
