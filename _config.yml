@@ -11,7 +11,7 @@ language: zh-cn
 timezone: utc
 
 
-url: https://murainy.github.io/
+url: https://github.com/murainy/july
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults: ""
@@ -64,6 +64,6 @@ stylus:
 
 deploy:
   type: git
-  repository: https://github.com/murainy/murainy.github.io.git
+  repository: https://github.com/murainy/july.git
   branches: master
   
