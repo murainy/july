@@ -1,7 +1,8 @@
 ---
 title: think
 date: 2016-06-30 15:49:16
-tags:
+categories: 随想
+tags: 日志
 ---
 世人总是恐惧失败，但失败了也大不从头再来
 
@@ -9,9 +10,9 @@ tags:
 
 Android中的消息机制主要由Handler、MessageQueue、Looper三个类组成，他们的主要作用是
 
-- Handler负责发送、处理Message
-- MessageQueue负责维护Message队列
-- Looper负责Message的轮询
+  Handler负责发送、处理Message
+  MessageQueue负责维护Message队列
+  Looper负责Message的轮询
 
 Android的消息机制主要是为了在子线程中处理的数据可以在主线程更新UI，完成从子线程到主线程的切换。
 

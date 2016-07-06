@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="日志," />
 
 
 
@@ -87,12 +87,8 @@
 <meta name="description" content="世人总是恐惧失败，但失败了也大不从头再来
 #谈谈对Android中的消息机制的理解
 Android中的消息机制主要由Handler、MessageQueue、Looper三个类组成，他们的主要作用是
-
-Handler负责发送、处理Message
-MessageQueue负责维护Message队列
-Looper负责Message的轮询
-
-Android的消息机制主要是为了在子线程中处理的数据可以在主">
+  Handler负责发送、处理Message  MessageQueue负责维护Message队列  Looper负责Message的轮询
+Android的消息机制主要是为了在子线程中处理的数据可以">
 <meta property="og:type" content="article">
 <meta property="og:title" content="think">
 <meta property="og:url" content="https://github.com/murainy/july/2016/06/30/think/index.html">
@@ -100,24 +96,16 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
 <meta property="og:description" content="世人总是恐惧失败，但失败了也大不从头再来
 #谈谈对Android中的消息机制的理解
 Android中的消息机制主要由Handler、MessageQueue、Looper三个类组成，他们的主要作用是
-
-Handler负责发送、处理Message
-MessageQueue负责维护Message队列
-Looper负责Message的轮询
-
-Android的消息机制主要是为了在子线程中处理的数据可以在主">
-<meta property="og:updated_time" content="2016-07-02T01:19:18.921Z">
+  Handler负责发送、处理Message  MessageQueue负责维护Message队列  Looper负责Message的轮询
+Android的消息机制主要是为了在子线程中处理的数据可以">
+<meta property="og:updated_time" content="2016-07-06T02:12:31.531Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="think">
 <meta name="twitter:description" content="世人总是恐惧失败，但失败了也大不从头再来
 #谈谈对Android中的消息机制的理解
 Android中的消息机制主要由Handler、MessageQueue、Looper三个类组成，他们的主要作用是
-
-Handler负责发送、处理Message
-MessageQueue负责维护Message队列
-Looper负责Message的轮询
-
-Android的消息机制主要是为了在子线程中处理的数据可以在主">
+  Handler负责发送、处理Message  MessageQueue负责维护Message队列  Looper负责Message的轮询
+Android的消息机制主要是为了在子线程中处理的数据可以">
 
 
 
@@ -143,7 +131,7 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
   <title> think | Hexo murainy </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-cn">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh_CN">
 
   
 
@@ -203,6 +191,26 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
         </li>
       
         
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
@@ -219,6 +227,16 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
             Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
           </a>
         </li>
       
@@ -272,11 +290,30 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-06-30T23:49:16+08:00" content="2016-06-30">
+            <time itemprop="dateCreated" datetime="2016-06-30T15:49:16+08:00" content="2016-06-30">
               2016-06-30
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/think/" itemprop="url" rel="index">
+                    <span itemprop="name">随想</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
@@ -303,11 +340,7 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
         <p>世人总是恐惧失败，但失败了也大不从头再来</p>
 <p>#谈谈对Android中的消息机制的理解</p>
 <p>Android中的消息机制主要由Handler、MessageQueue、Looper三个类组成，他们的主要作用是</p>
-<ul>
-<li>Handler负责发送、处理Message</li>
-<li>MessageQueue负责维护Message队列</li>
-<li>Looper负责Message的轮询</li>
-</ul>
+<p>  Handler负责发送、处理Message<br>  MessageQueue负责维护Message队列<br>  Looper负责Message的轮询</p>
 <p>Android的消息机制主要是为了在子线程中处理的数据可以在主线程更新UI，完成从子线程到主线程的切换。</p>
 <p>而Android的单线程UI模型，则是为了简化UI操作，防止在多线程情况下同时更新UI造成的同步操作和效率问题。</p>
 <p>与这种消息机制相关的类还有HandlerThread、IntentService。</p>
@@ -335,6 +368,12 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/日志/" rel="tag">#日志</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
@@ -347,6 +386,10 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/07/04/title-1/" rel="prev" title="YML配置语言">
+                YML配置语言 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -407,20 +450,34 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
-               alt="murainy" />
-          <p class="site-author-name" itemprop="name">murainy</p>
+               alt="Murainy" />
+          <p class="site-author-name" itemprop="name">Murainy</p>
           <p class="site-description motion-element" itemprop="description">要么出击，要么出局，命运女神总会眷顾拼劲全力的一方 </p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -469,7 +526,7 @@ Android的消息机制主要是为了在子线程中处理的数据可以在主"
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">murainy</span>
+  <span class="author" itemprop="copyrightHolder">Murainy</span>
 </div>
 
 <div class="powered-by">

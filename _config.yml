@@ -6,15 +6,15 @@
 title: "Hexo murainy"
 subtitle: "天马行空"
 description: "要么出击，要么出局，命运女神总会眷顾拼劲全力的一方 "
-author: murainy
-language: zh-cn
-timezone: utc
+author: Murainy
+language: zh_CN
+timezone: 
 
 
 url: https://github.com/murainy/july
 root: /
 permalink: :year/:month/:day/:title/
-permalink_defaults: ""
+permalink_defaults:  
 
 source_dir: source
 public_dir: public
@@ -35,26 +35,25 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: true
+ enable: true
+ line_number: true
+ auto_detect: false
+ tab_replace: true
 
 default_category: uncategorized
 category_map: 
- think
- life
- other
-
-tag_map:
- official
- responsive
- widget
- two_column
- one_column
+ 随想: think
+ 日志: log
+tag_map: 
+ life: life
+ other: other
 
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
+# Archives 默认值为2，这里都修改为1，相应页面就只会列出标题，而非全文
+archive: 1
+category: 1
+tag: 1
 
 per_page: 10
 pagination_dir: page
@@ -63,7 +62,7 @@ stylus:
  compress: true
 
 deploy:
-  type: git
-  repository: https://github.com/murainy/july.git
-  branches: master
+ type: git
+ repository: git@github.com:murainy/july.git
+ branches: gh-pages
   
