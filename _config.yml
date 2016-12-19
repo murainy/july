@@ -7,8 +7,8 @@ title: "Hexo murainy"
 subtitle: "天马行空"
 description: "要么出击，要么出局，命运女神总会眷顾拼劲全力的一方 "
 author: Murainy
-language: zh_CN
-timezone: 
+language: zh-CN
+timezone: UTC
 
 
 url: https://github.com/murainy/july
@@ -42,11 +42,12 @@ highlight:
 
 default_category: uncategorized
 category_map: 
- 随想: think
- 日志: log
+ -随想: think
+ -日志: log
 tag_map: 
- life: life
- other: other
+ -life: life
+ -log: log
+ -other: other
 
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
